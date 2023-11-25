@@ -1,7 +1,7 @@
 // src/components/HomePage.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import HeroImage from '../assests/ProjectImage.jpg'
+import HeroImage from '../assests/HeroImage.jpg'
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ const HomePage = () => {
         <img
           src={HeroImage} 
           alt="Computer and Accessories"
-          className="w-2/3"
+          className="w-1/2"
         />
 
         {/* Product description */}
